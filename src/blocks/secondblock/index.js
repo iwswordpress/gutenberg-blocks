@@ -5,10 +5,10 @@ import { __ } from '@wordpress/i18n';
 registerBlockType('mytheme-blocks/secondblock', {
 	title: __('Second Block', 'mytheme-blocks'),
 	description: __('Our second block', 'mytheme-blocks'),
-	category: 'layout',
+	category: 'iws-blocks',
 	icon: {
 		src: 'heart',
-		background: '#FFA500',
+		background: '#2196F3',
 		foreground: '#FFF',
 	},
 	keywords: [__('photo', 'mytheme-blocks'), __('image', 'mytheme-blocks')],
